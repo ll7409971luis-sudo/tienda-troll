@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #222;
+    color: white;
+    padding: 20px;
+}
+
+.productos {
+    margin: 20px;
+}
+
+.producto {
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    max-width: 400px;
+}
+
+button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #cc0000;
+}
+
+#gorila {
+    margin-top: 30px;
+}
+
+.oculto {
+    display: none;
+}
